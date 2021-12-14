@@ -325,23 +325,23 @@
     </FlowDocumentItemAction>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>36938429-452b-468c-bcae-5eef6b7b8085</UniqueId>
+        <UniqueId>4ef3d4e5-c6ad-479d-83ea-5ffba20e1487</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>36938429-452b-468c-bcae-5eef6b7b8085</ActionId>
+        <ActionId>4ef3d4e5-c6ad-479d-83ea-5ffba20e1487</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>FtpList</ActionTemplateName>
+        <ActionTemplateName>Email2</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>152</X>
-            <Y>372</Y>
+            <X>540</X>
+            <Y>180</Y>
             <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -349,184 +349,32 @@
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
         <SourceActionRole>Normal</SourceActionRole>
-        <Name>FtpList</Name>
+        <Name>Email</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceFtpFileSystem>
-        <Name>FtpList</Name>
+      <DataflowItemDataSourceEmail2>
+        <Name>Email</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
-          <IsFolder>false</IsFolder>
-          <Id>0</Id>
-          <IsNewRecord>false</IsNewRecord>
-          <Name>FtpList</Name>
-          <Description />
-          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
-          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
-          <IsSharedLayout>false</IsSharedLayout>
-          <LayoutBuildingOptions>
-            <RecordType>Record</RecordType>
-            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
-            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
-          </LayoutBuildingOptions>
-          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
-          <Fields>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FileName" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="FileName">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>82f7182e-e56e-4c92-a874-3ebb0d12856a</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="CreateTime" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="CreateTime">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>92cb2027-a010-495c-b993-4cc1ec55d581</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Flags" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Flags">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>8095f93c-837c-46a4-b8ce-c7cde48bb708</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Group" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Group">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>ee6859ce-c897-4341-ad39-41714e63ab99</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Size" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Size">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>03280ee8-8c6f-4a2f-8a44-4970212386b8</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="IsDirectory" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="IsDirectory">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>d9041bca-c1bc-4ffe-a192-8364bfa1ea29</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Owner" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Owner">
-              <FieldRoles>Input Output</FieldRoles>
-              <UniqueId>c1b34121-896a-4876-9b9e-eabd61ffce34</UniqueId>
-              <IsAllowedInOutput>true</IsAllowedInOutput>
-              <RegressionType>None</RegressionType>
-              <IsInput>true</IsInput>
-              <IsOutput>true</IsOutput>
-              <IsVariable>false</IsVariable>
-              <HasCollections>false</HasCollections>
-              <CompositeType>None</CompositeType>
-              <CompositeComponentType>None</CompositeComponentType>
-              <ParameterType>Query</ParameterType>
-              <PaginationFieldType>None</PaginationFieldType>
-              <IsRequired>true</IsRequired>
-              <RestParameterRequired>false</RestParameterRequired>
-              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
-              <IsResourceParameter>false</IsResourceParameter>
-              <InheritedParameter>No</InheritedParameter>
-              <OverrideInheritedParameter>false</OverrideInheritedParameter>
-            </RecordField>
-          </Fields>
-          <Children />
-          <Referenced />
-          <ValidationRules />
-        </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
         <ActionRole>Normal</ActionRole>
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <RemotePath>
+        <EmailFolder>Inbox</EmailFolder>
+        <AuthMode>Auto</AuthMode>
+        <Protocol>Imap</Protocol>
+        <AttachmentsFolderPath>
           <Path />
           <UncPath />
-        </RemotePath>
-        <Connection>
+        </AttachmentsFolderPath>
+        <DownloadAttachments>false</DownloadAttachments>
+        <ReadUnreadOnly>true</ReadUnreadOnly>
+        <MarkEmailAsRead>true</MarkEmailAsRead>
+        <IgnoreMailAlreadyPresent>false</IgnoreMailAlreadyPresent>
+        <Pop3GetTypeSetting>Full</Pop3GetTypeSetting>
+        <Pop3DeleteAfterReading>false</Pop3DeleteAfterReading>
+        <WebInfo>
           <Authentication>
             <AuthenticationMethod>None</AuthenticationMethod>
             <ConsumerKey />
@@ -552,7 +400,7 @@
             <PrivateKey />
             <IntegrityProtectionType>None</IntegrityProtectionType>
           </TransportSecurity>
-          <Port>21</Port>
+          <Port>25</Port>
           <Timeout>30</Timeout>
           <RetryCount>4</RetryCount>
           <RequireSSL>false</RequireSSL>
@@ -560,36 +408,30 @@
           <Password />
           <LogLevel>Off</LogLevel>
           <EmailProtocol>Imap</EmailProtocol>
-          <Type>Local</Type>
-          <WebProtocol>Ftp</WebProtocol>
-          <Protocol>Ftp</Protocol>
-          <ProviderType>Local</ProviderType>
-        </Connection>
-        <SearchInSubdirectories>false</SearchInSubdirectories>
-        <IncludeEntriesForDirectories>true</IncludeEntriesForDirectories>
-        <Attributes />
-      </DataflowItemDataSourceFtpFileSystem>
+        </WebInfo>
+        <ListenerId>0</ListenerId>
+      </DataflowItemDataSourceEmail2>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>c4405714-d265-4a6b-a7b9-60bff963ce25</UniqueId>
+    <UniqueId>73008b7d-8952-441b-9c4d-61ebe99c4b83</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>151</X>
+        <X>173</X>
         <Y>128</Y>
       </Location>
       <Size>
-        <Width>394</Width>
-        <Height>464</Height>
+        <Width>563</Width>
+        <Height>407</Height>
       </Size>
-      <X>151</X>
+      <X>173</X>
       <Y>128</Y>
-      <Width>394</Width>
-      <Height>464</Height>
+      <Width>563</Width>
+      <Height>407</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>
