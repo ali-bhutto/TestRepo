@@ -3,7 +3,7 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name />
+  <Name>C:\Users\muhammad.ali\Desktop\Git\atlassian\flow1.Df</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
@@ -60,6 +60,7 @@
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields />
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
@@ -161,10 +162,11 @@
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields />
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
-          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" EncryptedUser="" EncryptedPassword="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
             <IsReadOnly>false</IsReadOnly>
             <providerFilter>
               <DataProviderType>Adm</DataProviderType>
@@ -321,12 +323,101 @@
         </DbInfo>
       </DataflowItemDataSourceDatabase>
     </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>4ef3d4e5-c6ad-479d-83ea-5ffba20e1487</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>4ef3d4e5-c6ad-479d-83ea-5ffba20e1487</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Email2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>540</X>
+            <Y>180</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Email</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataSourceEmail2>
+        <Name>Email</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <EmailFolder>Inbox</EmailFolder>
+        <AuthMode>Auto</AuthMode>
+        <Protocol>Imap</Protocol>
+        <AttachmentsFolderPath>
+          <Path />
+          <UncPath />
+        </AttachmentsFolderPath>
+        <DownloadAttachments>false</DownloadAttachments>
+        <ReadUnreadOnly>true</ReadUnreadOnly>
+        <MarkEmailAsRead>true</MarkEmailAsRead>
+        <IgnoreMailAlreadyPresent>false</IgnoreMailAlreadyPresent>
+        <Pop3GetTypeSetting>Full</Pop3GetTypeSetting>
+        <Pop3DeleteAfterReading>false</Pop3DeleteAfterReading>
+        <WebInfo>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Port>25</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>false</RequireSSL>
+          <UserName />
+          <Password />
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Imap</EmailProtocol>
+        </WebInfo>
+        <ListenerId>0</ListenerId>
+      </DataflowItemDataSourceEmail2>
+    </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>243713f8-bf26-43c0-99b0-4d54cf8cb4e3</UniqueId>
+    <UniqueId>73008b7d-8952-441b-9c4d-61ebe99c4b83</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
@@ -334,12 +425,12 @@
         <Y>128</Y>
       </Location>
       <Size>
-        <Width>372</Width>
+        <Width>563</Width>
         <Height>407</Height>
       </Size>
       <X>173</X>
       <Y>128</Y>
-      <Width>372</Width>
+      <Width>563</Width>
       <Height>407</Height>
     </DocumentBounds>
     <DocumentPosition>
